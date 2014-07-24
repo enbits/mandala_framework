@@ -3,7 +3,7 @@ mandala_framework
 
 Mandala Framework is a -really ultra tiny and slim- PHP5 MVC framework. It is meant for those that doesn't need a bulky framework filled with buit-in libraries thay you may never use, it's also ideal for those who want to learn the basics of MVC.
 
-It's ultra tiny amd slim but...
+It's ultra tiny and slim but...
 ===============================
 
 But it doesn't do magic, Mandala Framework provides only the basics: just a bootstrap and a handler for controllers models and views. 

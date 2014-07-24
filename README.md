@@ -19,6 +19,6 @@ So I invite you all to use it, fork it, write add-on libraries or contribute in 
 Why 'Mandala'?
 ==============
 
-Mandalas are simetrical drawings that you will find in almost any religion or spiritual philosophy. And I choose that name because they're beautifuls but also they are the predecessors of Fractals. Fractals are everywhere in buildings, nature and even in computer code. 
+Mandalas are the predecessors of Fractals. Fractals are everywhere in buildings, nature and even in computer code. 
 
 

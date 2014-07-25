@@ -1,6 +1,6 @@
 <?php
-/**
- * 
+/*
+ * This is the parent of all the controllers in app/controller folder. It's located here so it can't be accesed trough a public url like: http:/mysite.com/base_controller
  */
 class base_controller extends controller {
     

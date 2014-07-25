@@ -1,6 +1,6 @@
 <?php
-define('SITE_URL','http://localhost/minimvc');
-define('BASE_PATH', '/minimvc');
+define('SITE_URL','http://localhost/mandala_framework');
+define('BASE_PATH', '/mandala_framework');
 define('HOME_PAGE','home');
 define('DB_TYPE','mysql');
 define('DB_HOST','localhost');

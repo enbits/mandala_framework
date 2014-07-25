@@ -16,9 +16,3 @@ As stated in the paragraph above, Mandala Framework's philosphy is to keep the c
 
 So I invite you all to use it, fork it, write add-on libraries or contribute in any way you want to make Mandala Framework better every day.
 
-Why 'Mandala'?
-==============
-
-Mandalas are the predecessors of Fractals. Fractals are everywhere in buildings, nature and even in computer code. 
-
-

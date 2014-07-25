@@ -9,3 +9,5 @@ define('DB_PASS','');
 define('DB_NAME','mandala_framework');
 define('DB_SHOW_ERRORS',TRUE);
 ini_set('display_errors','on');
+
+//GitHub: https://github.com/enbits/mandala_framework

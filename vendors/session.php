@@ -3,6 +3,7 @@ session_start();
 class session
 {
     static $session_name='Default';
+    
     /* Function name: Set
      * Params:
      * @name - The key to set

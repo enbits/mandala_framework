@@ -13,6 +13,10 @@ class base_controller extends controller {
         $this->views['menu'] = load::view('menu');
         $this->views['sidebar'] = load::view('sidebar');
         $this->views['footer'] = load::view('footer');
+
+        if ((DB_TYPE == 'sqlite') && (!in_array('sqlite',PDO::getAvailableDrivers()))) {
+            $this->views['message'] = load::view('message',array('message' => "It seems that you don't have PDO's sqlite driver enabled. Please, enable it or use mysql connection instead. By doing so you will be able to see the post listing in the Blog Section.",'message_type' => 'error'));
+        }
         parent::__construct();
         
     }

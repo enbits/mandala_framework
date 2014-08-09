@@ -12,6 +12,7 @@ $posts = $variables['posts'];
     $this->render();
 }</code></pre>
     </header>
+<?php if (is_array($posts)): ?>
 <h1>And here's the post listing...</h1>    
     <?php foreach ($posts as $p): ?>
     <section>
@@ -19,4 +20,9 @@ $posts = $variables['posts'];
         <p><?php echo substr($p->content,0,200);?></p>
     </section>
     <?php endforeach; ?>
+<?php else:?>
+<h1>No posts found...</h1>
+<section><p>There are no posts...missing database connection?</section>
+<?php endif; ?>
 </article>
+

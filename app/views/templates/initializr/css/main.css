@@ -392,3 +392,15 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+
+.message_error {
+    float: left;
+    width: 57%;
+    background-color: #f68484;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    
+}

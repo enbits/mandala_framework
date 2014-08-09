@@ -31,6 +31,7 @@
 
         <div class="main-container">
             <div class="main wrapper clearfix">
+                <?php if (isset($variables['views']['message'])) { echo $variables['views']['message'];}?>
                 <?php echo $variables['views']['main_content'];?>
                 <aside>
                     <?php echo $variables['views']['sidebar'];?>

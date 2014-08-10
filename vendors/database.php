@@ -82,7 +82,7 @@ class database {
 
     public function get_rows_by($field_name, $field_value, $columns_select = array('*')) {
         $stmt = $this->get_stmt_by($field_name, $field_value, $columns_select);
-        if ($result !== false) {
+        if ($stmt !== false) {
             return $stmt->fetchAll(PDO::FETCH_OBJ);
         }
     }

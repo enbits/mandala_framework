@@ -4,9 +4,7 @@
 ini_set('display_errors', 'on');
 define('FULL_PATH', realpath(dirname(__FILE__)));
 include(FULL_PATH . '/config.php');
-//include(FULL_PATH . '/core/database.php');
 include(FULL_PATH . '/core/load.php');
-//include(FULL_PATH . '/core/model.php');
 include(FULL_PATH . '/core/controller.php');
 include(FULL_PATH . '/autoload.php');
 
